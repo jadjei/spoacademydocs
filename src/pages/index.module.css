@@ -1,0 +1,63 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Figures strip. Values come from course-stats.json, regenerated alongside the docs. */
+.stats {
+  padding: 2.5rem 0 1rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.stat {
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.statValue {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--ifm-color-primary);
+}
+
+.statLabel {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.statsNote {
+  text-align: center;
+  margin-top: 1.25rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.95rem;
+}
+
+@media screen and (max-width: 768px) {
+  .statValue {
+    font-size: 1.9rem;
+  }
+}

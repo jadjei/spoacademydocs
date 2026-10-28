@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#111C33"/>
+    </linearGradient>
+    <linearGradient id="drop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- accent bar -->
+  <rect x="0" y="0" width="14" height="630" fill="#3B82F6"/>
+
+  <!-- FLUID7 droplet mark, top-right -->
+  <g transform="translate(1036,52) scale(0.82)">
+    <path d="M60 0 C60 0 120 78 120 128 A60 60 0 1 1 0 128 C0 78 60 0 60 0 Z" fill="url(#drop)"/>
+    <path d="M40 96 C24 116 26 150 52 162" fill="none" stroke="#EAF2FF" stroke-width="9" stroke-linecap="round" opacity="0.85"/>
+  </g>
+
+  <!-- eyebrow -->
+  <text x="96" y="150" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="6" fill="#60A5FA">CARDANO STAKE POOL OPERATORS</text>
+
+  <!-- title -->
+  <text x="94" y="288" font-family="DejaVu Sans, Arial, sans-serif" font-size="104" font-weight="700" fill="#FFFFFF">SPO Academy</text>
+  <!-- subtitle -->
+  <text x="98" y="372" font-family="DejaVu Sans, Arial, sans-serif" font-size="60" font-weight="700" fill="#3B82F6">Documentation</text>
+
+  <!-- tagline -->
+  <text x="98" y="452" font-family="DejaVu Sans, Arial, sans-serif" font-size="36" font-weight="400" fill="#AEBED6">Business skills for Cardano stake pool operators</text>
+
+  <!-- footer rule + url -->
+  <rect x="96" y="520" width="1008" height="2" fill="#24324D"/>
+  <text x="96" y="574" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">FLUID7</text>
+  <text x="1104" y="574" text-anchor="end" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="400" fill="#8195B2">catalyst.pages.fluid7.co.uk/spoacademydocs</text>
+</svg>

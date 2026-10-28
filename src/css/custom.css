@@ -1,0 +1,108 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* SPO Academy color palette matching spo.academy */
+:root {
+  /* Primary brand color */
+  --ifm-color-primary: #0084a8;
+  --ifm-color-primary-dark: #007597;
+  --ifm-color-primary-darker: #006e8e;
+  --ifm-color-primary-darkest: #005b75;
+  --ifm-color-primary-light: #1a93b9;
+  --ifm-color-primary-lighter: #2d9cc2;
+  --ifm-color-primary-lightest: #4db5d4;
+  
+  /* Secondary colors */
+  --ifm-color-secondary: #2c3749;
+  --ifm-color-secondary-dark: #242b3a;
+  --ifm-color-secondary-darker: #1f2631;
+  --ifm-color-secondary-darkest: #191e26;
+  --ifm-color-secondary-light: #34435b;
+  --ifm-color-secondary-lighter: #3e4d68;
+  --ifm-color-secondary-lightest: #526480;
+  
+  /* Accent color */
+  --ifm-color-accent: #ff8959;
+  --ifm-color-accent-dark: #ff7340;
+  --ifm-color-accent-darker: #ff6832;
+  --ifm-color-accent-darkest: #e54d1c;
+  --ifm-color-accent-light: #ff9f72;
+  --ifm-color-accent-lighter: #ffaa80;
+  --ifm-color-accent-lightest: #ffc5a3;
+  
+  /* Background colors */
+  --ifm-background-color: #f8f9fa;
+  --ifm-background-surface-color: #ffffff;
+  
+  /* Text colors */
+  --ifm-font-color-base: #212529;
+  --ifm-font-color-secondary: #6c757d;
+  
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 132, 168, 0.1);
+}
+
+/* Dark mode colors matching spo.academy dark theme */
+[data-theme='dark'] {
+  --ifm-color-primary: #0084a8;
+  --ifm-color-primary-dark: #007597;
+  --ifm-color-primary-darker: #006e8e;
+  --ifm-color-primary-darkest: #005b75;
+  --ifm-color-primary-light: #1a93b9;
+  --ifm-color-primary-lighter: #2d9cc2;
+  --ifm-color-primary-lightest: #4db5d4;
+  
+  --ifm-background-color: #1e2735;
+  --ifm-background-surface-color: #14171f;
+  --ifm-font-color-base: #f8f9fa;
+  --ifm-font-color-secondary: #adb5bd;
+  
+  --docusaurus-highlighted-code-line-bg: rgba(0, 132, 168, 0.3);
+}
+
+/* Footer link styles */
+.footer--dark a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.footer--dark a:hover {
+  color: var(--ifm-color-primary-lighter) !important;
+  text-decoration: underline;
+}
+
+/* Footer title styles */
+.footer--dark .footer__title {
+  color: #ffffff !important;
+}
+
+/* Secondary button styles */
+.button--secondary {
+  color: #ffffff !important;
+}
+
+.button--secondary:hover {
+  color: #ffffff !important;
+}
+
+/* Unevidenced items on the milestone drafts — meant to be impossible to miss, and
+   to leave nothing behind once the evidence lands and the marker is deleted. */
+.todo {
+  display: inline-block;
+  background: #c92a2a;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.8em;
+  letter-spacing: 0.06em;
+  padding: 0.1em 0.45em;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+[data-theme='dark'] .todo {
+  background: #ff6b6b;
+  color: #1a1a1a;
+}
